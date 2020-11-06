@@ -1,0 +1,18 @@
+.home{
+    min-height: 700px ;
+    font-size: 40px;
+
+}
+.brand{
+    color:white;
+    background-color:  #232741;
+}
+img{
+    border: none ;
+    border-radius: 50%;
+    height: 300px;
+}
+.typist{
+    color:#5ce865;
+    font-size: 30px;
+}

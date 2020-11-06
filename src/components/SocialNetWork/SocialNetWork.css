@@ -1,0 +1,16 @@
+.social-btn{
+    margin: 5px 7px 3px;
+    color: #d7ddd7;
+    font-size: 26px;
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+.social-btn:hover {
+    transform: translateY(-2px);
+}
+
+.social-btn:active {
+    outline: none;
+    transform: translateY(2px);
+}

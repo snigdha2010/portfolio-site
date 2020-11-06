@@ -1,6 +1,4 @@
-.desktopNav li a{
-   
-  }
+
   .active-link{
     border-bottom: 4px solid #5ce865;
   }
@@ -10,4 +8,7 @@
   .resume{
     background-image: linear-gradient(to right, #2bde8c, #5ce865);
     border-radius: 2px;
+  }
+ .nav-link{
+    color:white;
   }
