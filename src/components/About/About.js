@@ -5,7 +5,7 @@ import Typist from 'react-typist';
 
 const About = () => {
     return (
-        <div className='row about p-5'>
+        <div className='row text-green p-5'>
             <div style ={{textAlign:'start'}} className='col-md-8 p-5 '>
                 <Typist cursor={{'hideWhenDone': true, 'hideWhenDoneDelay': 0}} className='typist' >
                 <h1>Snigdha Hassan</h1>
@@ -19,7 +19,7 @@ const About = () => {
                 
             </div>
             <div className='col-md-4 mt-5 p-5'>
-                <img src={img} alt=""/>
+                <img className='profile' src={img} alt=""/>
             </div>
            
            

@@ -10,7 +10,7 @@ const Home = () => {
             <div className='home brand d-flex align-items-center  justify-content-center'>
             <div>
                 <div className='text-center pb-5'>
-                <img  src={img} alt=""/>
+                <img  className='profile' src={img} alt=""/>
                 </div>
                <h1 className='text-center typist'>Snigdha Hassan</h1> 
                 <Typist className='typist' cursor={{'hideWhenDone': true, 'hideWhenDoneDelay': 0}}>

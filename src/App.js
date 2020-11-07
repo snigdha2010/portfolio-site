@@ -9,6 +9,7 @@ import Header from './components/Header/Header';
 import SocialNetWork from './components/SocialNetWork/SocialNetWork';
 import Footer from './components/Footer/Footer';
 import About from './components/About/About';
+import Projects from './components/Projects/Projects';
 function App() {
   return (
     <div className='app'>
@@ -20,6 +21,9 @@ function App() {
       </Switch>
       <Switch>
         <Route path='/about' component={About} />
+      </Switch>
+      <Switch>
+        <Route path='/projects' component={Projects} />
       </Switch>
        <Footer/>
     </Router>

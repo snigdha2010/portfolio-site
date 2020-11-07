@@ -7,7 +7,7 @@
     color:white;
     background-color:  #232741;
 }
-img{
+.profile{
     border: none ;
     border-radius: 50%;
     height: 300px;
@@ -15,4 +15,7 @@ img{
 .typist{
     color:#5ce865;
     font-size: 30px;
+}
+.text-green{
+    color:#5ce865;
 }
