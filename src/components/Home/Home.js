@@ -4,6 +4,8 @@ import './Home.css';
 import img from '../../Image/profile-pic.jpeg';
 
 import SocialNetWork from '../SocialNetWork/SocialNetWork';
+import Contact from '../Contact/Contact';
+import Projects from '../Projects/Projects';
 
 const Home = () => {
     return (
@@ -22,8 +24,7 @@ const Home = () => {
                     <SocialNetWork/>
                 </div> 
             </div>
-            </div>
-              
+            </div>      
     );
 };
 

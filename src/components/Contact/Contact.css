@@ -1,0 +1,7 @@
+.line{
+    border-right: 2px solid rgba(49, 250, 200, 0.15);
+    padding: 12px 0 12px 22px;
+}
+.text-left{
+    text-align: left;
+}
