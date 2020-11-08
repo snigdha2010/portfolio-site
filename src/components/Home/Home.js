@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Typist from 'react-typist';
 import './Home.css';
 import img from '../../Image/profile-pic.jpeg';
-
 import SocialNetWork from '../SocialNetWork/SocialNetWork';
-import Contact from '../Contact/Contact';
-import Projects from '../Projects/Projects';
 
 const Home = () => {
+    useEffect(()=>{
+        document.title = 'Home'
+    },[])
     return (
             <div className='home brand d-flex align-items-center  justify-content-center'>
             <div>

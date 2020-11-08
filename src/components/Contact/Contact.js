@@ -4,7 +4,7 @@ import './Contact.css'
 
 const Contact = () => {
     useEffect(()=>{
-        document.title = 'About'
+        document.title = `Snigdha's Contact`
     },[])
   
     return (

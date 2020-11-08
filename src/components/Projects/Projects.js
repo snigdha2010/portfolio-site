@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import creativeagency from '../../Image/creativeagency.png'; 
 import volunteerNetwork from '../../Image/Volunteer-network.png';
 import ProjectsDetails from './ProjectsDetails';
@@ -10,6 +10,9 @@ import Typist from 'react-typist';
 
 
 const Projects = () => {
+    useEffect(()=>{
+        document.title = 'Projects'
+    },[])
     const projects = [
         {
             name: "Creative Agency" , img:creativeagency, 

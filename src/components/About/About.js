@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './About.css';
 import img from '../../Image/profile-pic.jpeg';
 import Typist from 'react-typist';
 
 const About = () => {
+    useEffect(()=>{
+        document.title = 'About Snigdha!'
+    },[])
     return (
         <div className='row text-green p-5 about text-center align-items-center'>
             <div style ={{textAlign:'start'}} className='col-md-8 p-5 '>
