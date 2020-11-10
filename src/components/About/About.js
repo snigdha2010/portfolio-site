@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './About.css';
-import img from '../../Image/profile-pic.jpeg';
+import img from '../../image/profile-pic.jpeg';
 import Typist from 'react-typist';
 
 const About = () => {

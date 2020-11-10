@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Typist from 'react-typist';
 import './Home.css';
-import img from '../../Image/profile-pic.jpeg';
+import img from '../../image/profile-pic.jpeg';
 import SocialNetWork from '../SocialNetWork/SocialNetWork';
 
 const Home = () => {

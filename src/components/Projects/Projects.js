@@ -1,11 +1,13 @@
 import React, { useEffect } from 'react';
-import creativeagency from '../../Image/creativeagency.png'; 
-import volunteerNetwork from '../../Image/Volunteer-network.png';
+import creativeagency from '../../image/creativeagency.png'; 
+import volunteerNetwork from '../../image/Volunteer-network.png';
 import ProjectsDetails from './ProjectsDetails';
-import travelGuru from '../../Image/TravelGuru.png';
-import bookShop from '../../Image/bookShop.png';
-import pandaCommerce from '../../Image/PandaCommerce.png';
-import issueTracker from '../../Image/IsseTracker.png';
+import travelGuru from '../../image/TravelGuru.png';
+import bookShop from '../../image/bookShop.png';
+import pandaCommerce from '../../image/PandaCommerce.png';
+import issueTracker from '../../image/IsseTracker.png';
+import emaJohn from '../../image/ema-john.png';
+import doctorsPortal from '../../image/doctorsPortal.png';
 import Typist from 'react-typist';
 
 
@@ -28,6 +30,21 @@ const Projects = () => {
             github: 'https://github.com/snigdha2010/volunteer-network',
             website:'https://snighd-volunteer-network.web.app/'
         },
+        {
+            name: "Ema-John", img: emaJohn,
+            description: `A complete E-Commerce website where you can review product details, add them to the shopping cart,  review cart and
+             finally purchase products online and pay using a bank debit or credit card.`,
+            github: 'https://github.com/snigdha2010/ema-john',
+            website:'https://snigdha-ema-john.web.app/'
+        },
+        {
+            name: "Doctors-Portals", img: doctorsPortal,
+            description: ` A full-stack app where you can pick the date and time and fix an appointment with a doctor. A doctor can review and 
+            prescribe medicine to a patient. Doctor and Patient roles are implemented with different levels of authorization. Authentication is implemented to see the dashboard based on role.`,
+            github: 'https://github.com/snigdha2010/doctorls-portal',
+            website:'https://doctors-portal-aaac4.web.app/'
+        },
+
         {
             name: "Travel Guru", img: travelGuru,
             description: `A Simple React dummy Travel application using React, Firebase, HTML, CSS. Traveler can chose a place and set a boking for any
