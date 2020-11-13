@@ -3,5 +3,10 @@
     background-color: #5ce865;
 }
 .about{
-    height: 700px;
+    height: 1000px;
 }
+@media all and (max-width:804){
+    .about{
+      height: 1000px;
+    }
+  }

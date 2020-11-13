@@ -8,7 +8,7 @@ const Contact = () => {
     },[])
   
     return (
-        <div style={{height:'700px'}} className='row align-items-center'>
+        <div style={{height:'850px'}} className='row align-items-center'>
             <div className='col-md-6 pl-5 line'>
             <h3 className='text-green text-center'>Reach out to me with any query</h3>
                 <form className='p-5 ' action="">

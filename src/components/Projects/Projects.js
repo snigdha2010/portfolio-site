@@ -75,7 +75,7 @@ const Projects = () => {
     return (
         <div className='text-white'>
             <Typist cursor={{'hideWhenDone': true, 'hideWhenDoneDelay': 0}}>
-               <h3 className='text-green'>Projects</h3> 
+               <h3 className='text-green pt-5'>Projects</h3> 
             </Typist>
             
             <div className='row'>

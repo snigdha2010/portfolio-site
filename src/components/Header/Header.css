@@ -8,10 +8,18 @@
   .resume{
     background-image: linear-gradient(to right, #2bde8c, #5ce865);
     border-radius: 2px;
+    border: none;
+  }
+  .resume:hover{
+    transform: translateY(-2px);
   }
  .nav-link{
     color:white;
   }
   .header{
     background-color: transparent;
+  }
+  .nav-item{
+
+    text-align: center !important;
   }
